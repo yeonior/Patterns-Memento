@@ -13,6 +13,7 @@
 		A28664CB279F246E006E2F55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28664C9279F246E006E2F55 /* Main.storyboard */; };
 		A28664CD279F246F006E2F55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A28664CC279F246F006E2F55 /* Assets.xcassets */; };
 		A28664D0279F246F006E2F55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28664CE279F246F006E2F55 /* LaunchScreen.storyboard */; };
+		A28664D8279F24F5006E2F55 /* LineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28664D7279F24F5006E2F55 /* LineModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A28664CC279F246F006E2F55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A28664CF279F246F006E2F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A28664D1279F246F006E2F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A28664D7279F24F5006E2F55 /* LineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				A28664C3279F246E006E2F55 /* AppDelegate.swift */,
 				A28664C5279F246E006E2F55 /* SceneDelegate.swift */,
+				A28664D7279F24F5006E2F55 /* LineModel.swift */,
 				A28664C7279F246E006E2F55 /* ViewController.swift */,
 				A28664C9279F246E006E2F55 /* Main.storyboard */,
 				A28664CC279F246F006E2F55 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 				A28664C8279F246E006E2F55 /* ViewController.swift in Sources */,
 				A28664C4279F246E006E2F55 /* AppDelegate.swift in Sources */,
 				A28664C6279F246E006E2F55 /* SceneDelegate.swift in Sources */,
+				A28664D8279F24F5006E2F55 /* LineModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
