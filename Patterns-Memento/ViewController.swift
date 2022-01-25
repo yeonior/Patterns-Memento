@@ -9,11 +9,32 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var canvasView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
     }
 
-
+    @IBAction func saveButtonAction(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction func loadButtonAction(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction func blueColorAction(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction func orangeColorAction(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction func greenColorAction(_ sender: UIButton) {
+        
+    }
 }
 
