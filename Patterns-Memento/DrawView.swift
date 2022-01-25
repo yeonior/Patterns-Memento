@@ -41,6 +41,7 @@ class DrawView: UIView {
         path.move(to: startPoint)
         path.addLine(to: endPoint)
         startPoint = endPoint
+        drawShapeLayer()
     }
     
     private func drawShapeLayer() {

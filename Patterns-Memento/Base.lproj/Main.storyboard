@@ -81,7 +81,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6CH-9p-qL7">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6CH-9p-qL7" customClass="DrawView" customModule="Patterns_Memento" customModuleProvider="target">
                                 <rect key="frame" x="20" y="184" width="374" height="506.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
@@ -102,7 +102,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="canvasView" destination="6CH-9p-qL7" id="RyE-GW-XOJ"/>
+                        <outlet property="canvasView" destination="6CH-9p-qL7" id="Wr0-S4-W8L"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
